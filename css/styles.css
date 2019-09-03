@@ -1,0 +1,77 @@
+/*
+*   Navigation Link Styles
+*/
+
+#nav > #nav-links > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#nav > #nav-links > ul > li {
+    float: left;
+}
+
+#nav > #nav-links > ul > li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav > #nav-links > ul > li a:hover {
+    background-color: #111;
+}
+
+#nav > #nav-title-bar {
+    margin: 0px 15px 0px 15px;
+    padding: 10px 0px 10px 0px;
+}
+
+#nav > #nav-title-bar > h1 {
+    font-size: 18px;
+}
+
+/*
+*   About Us Styles
+*/
+
+.about-us-profile {
+    margin-bottom: 30px;
+    margin-top: 30px;
+} 
+
+.profile-image-caption {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+.profile-image-caption > img {
+    width: 250px;
+    height: 250px;
+}
+
+.profile-image-caption > h1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+/*
+*   Main Content Styles
+*/
+
+body {
+    font-family: 'Arial';
+}
+
+#main-content {
+    padding: 20px;
+}
+
+#main-content > h1 {
+    font-size: 28px;
+}
